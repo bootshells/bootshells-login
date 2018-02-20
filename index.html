@@ -1,56 +1,45 @@
-<!DOCTYPE html>
-<html>
-	<head>
-		<meta charset="utf-8">
-		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<title>Login Page</title>
+<!doctype html>
+<html lang="en" class="h-100">
+<head>
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-		<!-- Bootstrap CSS -->
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
-		<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-		<!--[if lt IE 9]>
-			<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.2/html5shiv.min.js"></script>
-			<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-		<![endif]-->
-	</head>
-	<body>
-		<div class="container">
-			<br>
-			<div class="row">
-				<div class="col-sm-6 col-sm-offset-3">
-					<form action="#" class="form-horizontal">
-						<div class="panel panel-default">
-						  <div class="panel-heading">
-						    <h3 class="panel-title">Member Login</h3>
-						  </div>
-						  <div class="panel-body">
-						  	<p>Please use the form below to enter in your username and password, in order to login to the Member area.</p>
-							<br>
-						  	<div class="form-group">
-							    <label class="col-sm-3">Username: </label>
-							    <div class="col-sm-9">
-							    	<input id="username" name="username" type="text" class="form-control" />
-							    </div>
-						    </div>
-
+	<title>Member Login</title>
+</head>
+<body class="d-flex h-100">
+	<div class="container align-self-center">
+		<div class="row">
+			<div class="col-md-8 mx-auto">
+				<div class="card">
+					<div class="card-body">
+						<h1 class="card-title">Member Login</h1>
+						<p class="card-text">Please use the form below to enter in your username and password, in order to login to the Member area.</p>
+						<form action="/">
 							<div class="form-group">
-						    	<label class="col-sm-3">Password: </label>
-						    	<div class="col-sm-9">
-						    		<input id="password" name="password" type="password" class="form-control" />
-						    	</div>
+								<label for="exampleInputEmail1">Email address</label>
+								<input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="example@example.com">
+								<small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
 							</div>
-
-						  </div>
-						  <div class="panel-footer">
-						  	<input type="submit" class="btn btn-primary btn-block btn-lg" value="Sign In">
-						  </div>
-						</div>
-					</form>
+							<div class="form-group">
+								<label for="exampleInputPassword1">Password</label>
+								<input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+							</div>
+							<p><a href="#"><small>Forgot your password?</small></a></p>
+							<a href="#" class="btn btn-primary btn-lg">Login</a>
+						</form>
+					</div>
 				</div>
 			</div>
 		</div>
-	</body>
+	</div>
+	<!-- Optional JavaScript -->
+	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
 </html>
